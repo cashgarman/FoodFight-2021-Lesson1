@@ -1,0 +1,516 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 32612 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Unity\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Projects/FoodFight-2021-Lesson1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62260
+Successfully changed project path to: D:/Projects/FoodFight-2021-Lesson1
+D:/Projects/FoodFight-2021-Lesson1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 27.27 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.99 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path D:/Unity/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/FoodFight-2021-Lesson1/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 with Max-Q Design (ID=0x1f10)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   27.21.14.6089
+Initialize mono
+Mono path[0] = 'D:/Unity/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Unity/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56392
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001329 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.35 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.456 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001805 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in D:\Projects\FoodFight-2021-Lesson1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in D:\Projects\FoodFight-2021-Lesson1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.826 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 1220 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.0 MB.
+System memory in use after: 61.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1665.
+Total: 1.710200 ms (FindLiveObjects: 0.125800 ms CreateObjectMapping: 0.037900 ms MarkObjects: 1.465900 ms  DeleteObjects: 0.079400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/FoodFight/Scripts/Grabber.cs
+  artifactKey: Guid(5e4348108c6341a4f900e938aac4c2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodFight/Scripts/Grabber.cs using Guid(5e4348108c6341a4f900e938aac4c2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc2267092212d019c68d9c8e2d6b85c') in 0.045563 seconds
+  Import took 0.047315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/FoodFight/Scripts/GrabbableObject.cs
+  artifactKey: Guid(4046014bbb58d0c4480f48bad557ddcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodFight/Scripts/GrabbableObject.cs using Guid(4046014bbb58d0c4480f48bad557ddcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd0793903b99354a86a2ff786af0f01') in 0.005401 seconds
+  Import took 0.006966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 191.103984 seconds.
+  path: Assets/FoodFight/Scripts/Grabber.cs
+  artifactKey: Guid(5e4348108c6341a4f900e938aac4c2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FoodFight/Scripts/Grabber.cs using Guid(5e4348108c6341a4f900e938aac4c2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ef8ac5bf3e23dda331fc7af766342a') in 0.006960 seconds
+  Import took 0.008999 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001671 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in D:\Projects\FoodFight-2021-Lesson1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in D:\Projects\FoodFight-2021-Lesson1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.853 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 1203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.5 MB.
+System memory in use after: 60.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1669.
+Total: 1.916100 ms (FindLiveObjects: 0.146200 ms CreateObjectMapping: 0.033300 ms MarkObjects: 1.693400 ms  DeleteObjects: 0.042400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001768 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in D:\Projects\FoodFight-2021-Lesson1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in D:\Projects\FoodFight-2021-Lesson1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 1203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.6 MB.
+System memory in use after: 60.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1673.
+Total: 2.501000 ms (FindLiveObjects: 0.128200 ms CreateObjectMapping: 0.036500 ms MarkObjects: 2.287400 ms  DeleteObjects: 0.047700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in D:\Projects\FoodFight-2021-Lesson1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in D:\Projects\FoodFight-2021-Lesson1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.169 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 1203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.6 MB.
+System memory in use after: 60.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1677.
+Total: 2.704700 ms (FindLiveObjects: 0.222900 ms CreateObjectMapping: 0.064900 ms MarkObjects: 2.333200 ms  DeleteObjects: 0.081700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002521 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in D:\Projects\FoodFight-2021-Lesson1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in D:\Projects\FoodFight-2021-Lesson1\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.093 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 1203 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.6 MB.
+System memory in use after: 60.7 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1681.
+Total: 2.732700 ms (FindLiveObjects: 0.182300 ms CreateObjectMapping: 0.039500 ms MarkObjects: 2.424800 ms  DeleteObjects: 0.083900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2523.225661 seconds.
+  path: Assets/VRHands/Left Hand.prefab
+  artifactKey: Guid(dbba18ec9e982774390007fc6e6a5a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRHands/Left Hand.prefab using Guid(dbba18ec9e982774390007fc6e6a5a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e473324f4102a7fddd1a51d8a5329365') in 0.209465 seconds
+  Import took 0.212420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008879 seconds.
+  path: Assets/VRHands/Left Hand.prefab
+  artifactKey: Guid(dbba18ec9e982774390007fc6e6a5a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRHands/Left Hand.prefab using Guid(dbba18ec9e982774390007fc6e6a5a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e473324f4102a7fddd1a51d8a5329365') in 0.026451 seconds
+  Import took 0.031162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.680547 seconds.
+  path: Assets/VRHands/Right Hand.prefab
+  artifactKey: Guid(8e0d70aa8b3c0b447bcd87a8b01c8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRHands/Right Hand.prefab using Guid(8e0d70aa8b3c0b447bcd87a8b01c8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ef36a22d3be27407935dcb4ed80225') in 0.024764 seconds
+  Import took 0.028061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.081488 seconds.
+  path: Assets/VRHands/Right Hand.prefab
+  artifactKey: Guid(8e0d70aa8b3c0b447bcd87a8b01c8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRHands/Right Hand.prefab using Guid(8e0d70aa8b3c0b447bcd87a8b01c8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2ab0978b57c4016c535c5ff27e47cd') in 0.020998 seconds
+  Import took 0.024317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.278396 seconds.
+  path: Assets/VRHands/Left Hand.prefab
+  artifactKey: Guid(dbba18ec9e982774390007fc6e6a5a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRHands/Left Hand.prefab using Guid(dbba18ec9e982774390007fc6e6a5a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6b0097b17483693d916d7c84054e3d') in 0.020719 seconds
+  Import took 0.025031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.206198 seconds.
+  path: Assets/VRHands/Left Hand.prefab
+  artifactKey: Guid(dbba18ec9e982774390007fc6e6a5a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRHands/Left Hand.prefab using Guid(dbba18ec9e982774390007fc6e6a5a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b90e034f130e4f308b9efc16213b2b') in 0.038312 seconds
+  Import took 0.042732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.570644 seconds.
+  path: Assets/VRHands/Right Hand.prefab
+  artifactKey: Guid(8e0d70aa8b3c0b447bcd87a8b01c8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRHands/Right Hand.prefab using Guid(8e0d70aa8b3c0b447bcd87a8b01c8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625a50c34b047339d81820ff3265a162') in 0.020425 seconds
+  Import took 0.024751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011906 seconds.
+  path: Assets/VRHands/Right Hand.prefab
+  artifactKey: Guid(8e0d70aa8b3c0b447bcd87a8b01c8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRHands/Right Hand.prefab using Guid(8e0d70aa8b3c0b447bcd87a8b01c8a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625a50c34b047339d81820ff3265a162') in 0.023051 seconds
+  Import took 0.026418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.977701 seconds.
+  path: Assets/ThirdParty/VR Hands/Materials/Katanahandcloth low poly_defaultMat_AlbedoTransparency.mat
+  artifactKey: Guid(40fbb716d4e77484c880d0b96d049ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Materials/Katanahandcloth low poly_defaultMat_AlbedoTransparency.mat using Guid(40fbb716d4e77484c880d0b96d049ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f269306334a011716ae3a93e974c40') in 0.196288 seconds
+  Import took 0.199327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003438 seconds.
+  path: Assets/ThirdParty/VR Hands/Materials/Hand male low poly_defaultMat_AlbedoTransparency.mat
+  artifactKey: Guid(364ca30776f022d418662af10411c498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Materials/Hand male low poly_defaultMat_AlbedoTransparency.mat using Guid(364ca30776f022d418662af10411c498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509f7ce2b89fe6ba7d55505c9432d7c0') in 0.017773 seconds
+  Import took 0.020781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012755 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Misty hand cloth lowres_initialShadingGroup_SpecularSmoothness.png
+  artifactKey: Guid(ae7505dc9d1719e4e8919ce727b64f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Misty hand cloth lowres_initialShadingGroup_SpecularSmoothness.png using Guid(ae7505dc9d1719e4e8919ce727b64f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f614277a8337ad089a529876ab51a2e') in 0.140827 seconds
+  Import took 0.142726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012881 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Katanahandcloth low poly_defaultMat_SpecularSmoothness.png
+  artifactKey: Guid(9854754ad1dc6dc4097d4d11465ed76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Katanahandcloth low poly_defaultMat_SpecularSmoothness.png using Guid(9854754ad1dc6dc4097d4d11465ed76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e952dc1be91927d3fd9a39cec6cf206') in 0.010559 seconds
+  Import took 0.012527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010581 seconds.
+  path: Assets/ThirdParty/VR Hands/Fbx/ESNASFT VR Hands.fbx
+  artifactKey: Guid(ff0676c8d91f84f49b766d604828e420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Fbx/ESNASFT VR Hands.fbx using Guid(ff0676c8d91f84f49b766d604828e420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89a89dc0fbdf181fab144609932d9ed') in 0.250493 seconds
+  Import took 0.258871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013713 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Katanahandcloth low poly_defaultMat_Normal.png
+  artifactKey: Guid(4d8370bae40c27d488185934c58a5535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Katanahandcloth low poly_defaultMat_Normal.png using Guid(4d8370bae40c27d488185934c58a5535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f54014251d55ed2d0dfdb88a453b07b') in 0.014179 seconds
+  Import took 0.017078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011109 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Katanahandcloth low poly_defaultMat_AlbedoTransparency.png
+  artifactKey: Guid(850d986489f2ca849a7dd3aebfe845d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Katanahandcloth low poly_defaultMat_AlbedoTransparency.png using Guid(850d986489f2ca849a7dd3aebfe845d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5eeb71168ad9e1410936ba2497e2d1b') in 0.011272 seconds
+  Import took 0.013367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012246 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Misty hand cloth lowres_initialShadingGroup_Normal.png
+  artifactKey: Guid(8f49aacef55792846a695ca167d45f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Misty hand cloth lowres_initialShadingGroup_Normal.png using Guid(8f49aacef55792846a695ca167d45f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a99b546275c996b1921c7e7a0a9a3bf') in 0.012570 seconds
+  Import took 0.014675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010374 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Tempest hand armor_initialShadingGroup_AlbedoTransparency.png
+  artifactKey: Guid(5a48dbfa172c5b542ab4f039fbb8f7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Tempest hand armor_initialShadingGroup_AlbedoTransparency.png using Guid(5a48dbfa172c5b542ab4f039fbb8f7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105178fbd2ff99cffafa579733443faf') in 0.010034 seconds
+  Import took 0.011951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013063 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Seraphim hand cloths lowres_Seraphim_hand_armor_AlbedoTransparency.png
+  artifactKey: Guid(d06d939c0fe2bf84f8b810e683941881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Seraphim hand cloths lowres_Seraphim_hand_armor_AlbedoTransparency.png using Guid(d06d939c0fe2bf84f8b810e683941881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9413d3087336667c884073dae3fea04') in 0.009935 seconds
+  Import took 0.011850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019242 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Female low res_defaultMat_Normal.png
+  artifactKey: Guid(b4c4a035aecb94d4fb847194b994fe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Female low res_defaultMat_Normal.png using Guid(b4c4a035aecb94d4fb847194b994fe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4ccd1709f0e1c685e9675d11f7c92a') in 0.010535 seconds
+  Import took 0.012528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017979 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Jericho Hand armor_Normals.png
+  artifactKey: Guid(d0cc8e8c61916824b9ed03f0420d85a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Jericho Hand armor_Normals.png using Guid(d0cc8e8c61916824b9ed03f0420d85a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b1f7fe2d8d3887a4ef1cc40352a646') in 0.011347 seconds
+  Import took 0.013612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002999 seconds.
+  path: Assets/ThirdParty/VR Hands/Materials/Tempest hand armor_initialShadingGroup_AlbedoTransparency.mat
+  artifactKey: Guid(6911332511f73774d8994c16c5e5d3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Materials/Tempest hand armor_initialShadingGroup_AlbedoTransparency.mat using Guid(6911332511f73774d8994c16c5e5d3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd21501b130d0ec6592d7e681878d9a') in 0.018101 seconds
+  Import took 0.020535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010301 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Misty hand cloth lowres_initialShadingGroup_AlbedoTransparency.png
+  artifactKey: Guid(54c0095f4b20703489a9f2203a2cec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Misty hand cloth lowres_initialShadingGroup_AlbedoTransparency.png using Guid(54c0095f4b20703489a9f2203a2cec7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff32eada46f15b5b07c936464bdaa9b') in 0.010372 seconds
+  Import took 0.012505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016802 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Seraphim hand cloths lowres_Seraphim_hand_armor_Normal.png
+  artifactKey: Guid(b64c9c4bc6c6aa04b904ae9527894661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Seraphim hand cloths lowres_Seraphim_hand_armor_Normal.png using Guid(b64c9c4bc6c6aa04b904ae9527894661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0153574252a768fdd8753cd176997b1') in 0.011161 seconds
+  Import took 0.013101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007673 seconds.
+  path: Assets/ThirdParty/VR Hands/Materials/Misty hand cloth lowres_initialShadingGroup_AlbedoTransparency.mat
+  artifactKey: Guid(395c301427efeec4fae1d68e175ad623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Materials/Misty hand cloth lowres_initialShadingGroup_AlbedoTransparency.mat using Guid(395c301427efeec4fae1d68e175ad623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4fab57bdcd2d988fce02fb69699488') in 0.018617 seconds
+  Import took 0.021289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011604 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Seraphim hand cloths lowres_Seraphim_hand_armor_SpecularSmoothness.png
+  artifactKey: Guid(2b81eec8c06716f4788d462246cf9a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Seraphim hand cloths lowres_Seraphim_hand_armor_SpecularSmoothness.png using Guid(2b81eec8c06716f4788d462246cf9a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd818b892222b820b36509bb3eed66269') in 0.011544 seconds
+  Import took 0.014220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009207 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Tempest hand armor_initialShadingGroup_Normal.png
+  artifactKey: Guid(63b2ccb97f7c5a640b842d7a0ee8e70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Tempest hand armor_initialShadingGroup_Normal.png using Guid(63b2ccb97f7c5a640b842d7a0ee8e70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f7ff893a567e66de6d0bbb0fa22861') in 0.012662 seconds
+  Import took 0.014761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018981 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Tempest hand armor_initialShadingGroup_SpecularSmoothness.png
+  artifactKey: Guid(d1a23f4d2b306314aa4f06f7e1c845f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Tempest hand armor_initialShadingGroup_SpecularSmoothness.png using Guid(d1a23f4d2b306314aa4f06f7e1c845f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85d58f1e0d32f6cfe3e7c30ec4e96e5') in 0.011274 seconds
+  Import took 0.013367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011503 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Jericho Hand armor_Specular.png
+  artifactKey: Guid(924ecea12ac792d488f36d681abf9aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Jericho Hand armor_Specular.png using Guid(924ecea12ac792d488f36d681abf9aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723f6360bef1987601018e973495d2d0') in 0.009931 seconds
+  Import took 0.012015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004275 seconds.
+  path: Assets/ThirdParty/VR Hands/Materials/Female low res_defaultMat_AlbedoTransparency.mat
+  artifactKey: Guid(6e410de03c5378747a02f745cfa35f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Materials/Female low res_defaultMat_AlbedoTransparency.mat using Guid(6e410de03c5378747a02f745cfa35f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc120ecfb0d87ca3da640597c9d8889b') in 0.021188 seconds
+  Import took 0.025631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003690 seconds.
+  path: Assets/ThirdParty/VR Hands/Materials/Jericho Hand armor_AlbedoTransparency.mat
+  artifactKey: Guid(546ee01a7717c494a9c209e3da95073b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Materials/Jericho Hand armor_AlbedoTransparency.mat using Guid(546ee01a7717c494a9c209e3da95073b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb74ac5504341d92c3d8f853dbd7564e') in 0.023438 seconds
+  Import took 0.027726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012974 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Hand male low poly_DefaultMaterial_SpecularSmoothness.png
+  artifactKey: Guid(bfff6d318d91996409bc7aaeda6fc5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Hand male low poly_DefaultMaterial_SpecularSmoothness.png using Guid(bfff6d318d91996409bc7aaeda6fc5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e6053a681a09ddbcf482a384396f19') in 0.011980 seconds
+  Import took 0.014367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003171 seconds.
+  path: Assets/ThirdParty/VR Hands/Materials/Seraphim hand cloths lowres_Seraphim_hand_armor_AlbedoTransparency.mat
+  artifactKey: Guid(79a92d8f103507845b0e39e2cce5b8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Materials/Seraphim hand cloths lowres_Seraphim_hand_armor_AlbedoTransparency.mat using Guid(79a92d8f103507845b0e39e2cce5b8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c670fd8248c8c6f67fa04325a31a0f') in 0.019109 seconds
+  Import took 0.021730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013819 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Female low res_defaultMat_AlbedoTransparency.png
+  artifactKey: Guid(8cc160f8ccc766a49b481d470116efe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Female low res_defaultMat_AlbedoTransparency.png using Guid(8cc160f8ccc766a49b481d470116efe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c498b24f7989f38366f2c95a70191f') in 0.011469 seconds
+  Import took 0.013596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018373 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Hand male low poly_DefaultMaterial_Normal.png
+  artifactKey: Guid(33f1554c3b45c3846ae89053434597e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Hand male low poly_DefaultMaterial_Normal.png using Guid(33f1554c3b45c3846ae89053434597e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec253684e7067ae61374a974740c1fb') in 0.013193 seconds
+  Import took 0.015367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014031 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Female low res_defaultMat_SpecularSmoothness.png
+  artifactKey: Guid(1b9ab5dbcd3563a40b5b18337c2e98f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Female low res_defaultMat_SpecularSmoothness.png using Guid(1b9ab5dbcd3563a40b5b18337c2e98f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607ecadb692cd91e8cd69369b868af4f') in 0.010679 seconds
+  Import took 0.012823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013325 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Hand male low poly_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(9a373796942b3114ea5d911e5f4c309c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Hand male low poly_DefaultMaterial_AlbedoTransparency.png using Guid(9a373796942b3114ea5d911e5f4c309c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d27a98a4f72b9f942554bbf0ef7a96') in 0.010333 seconds
+  Import took 0.012272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015029 seconds.
+  path: Assets/ThirdParty/VR Hands/Textures/Jericho Hand armor_AlbedoTransparency.png
+  artifactKey: Guid(91071fbaf1e2e2246a788c22ce33dede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/VR Hands/Textures/Jericho Hand armor_AlbedoTransparency.png using Guid(91071fbaf1e2e2246a788c22ce33dede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc97232ba9a93b562ab2ddb5aaa94dd') in 0.009231 seconds
+  Import took 0.011159 seconds .
+
